@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto,
+    sans-serif;
+}
+
+body {
+  background: #F5F8FD;
+}
+
+nav {
+  /* height: 55px; */
+  width: 100%;
+  color: #fff;
+  background: linear-gradient(-45deg, #e82175, #4B0082);
+}
+
+.seta-principal{
+  margin-left: -8%;
+}
+
+main {
+  margin: auto;
+  margin-top: 2%;
+}
+
+form div p {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+form div .button-right {
+  background-color: #034cd9;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  display: inline-block;
+  padding: 8px;
+  margin-left: 5px;
+
+}
+
+div span {
+  margin-left: 5px;
+}
+
+div span i {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div #img-float {
+  width: 100%;
+  padding-top: 30px;
+}
+
+section div button {
+  margin-right: 1%;
+}
+
+#usuario-card div span {
+  margin-left: -50px;
+}
+
+
+footer {
+  margin-top: 5%;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  #carousel {
+    margin-top: -25%;
+    margin-left: -8%;
+  }
+
+  #carousel2 {
+    margin-top: -25%;
+    margin-right: -7%;
+
+  }
+
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.p-40 {
+  padding-right: 40px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 13px;
+}
+
+.fs-15{
+  font-size: 15px;
+}
+
+.negrito-100 {
+  font-weight: 100;
+}
+
+.negrito-500 {
+  font-weight: 500;
+}
+
+.negrito-700 {
+  font-weight: 700;
+}
+
+.negrito-900 {
+  font-weight: 900;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ul-nav {
+  font-size: 25px;
+}
+
+.ul-nav li i a {
+  margin-left: 5px;
+}
+
+.ul-nav li i .navbar-brand {
+  color: #fff;
+}
+
+.p-40 {
+  padding-right: 40px;
+}
+
+.pt-40{
+  padding-top: 40px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.add-scroll {
+  height: 475px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-bottom: 1px solid lightgrey;
+}
+
+.button-live {
+  border-radius: 8px 8px 8px 0;
+  border-color: #08bf1a;
+  font-size: 60%;
+  height: 25px;
+  width: 45px;
+  background-color: #08BF1A;
+}
+
+.button-live-red {
+  border-radius: 8px 8px 8px 0;
+  border-color: #fd3944;
+  font-size: 60%;
+  height: 25px;
+  width: 45px;
+  background-color: #fd3944;
+  margin-top: 5%;
+  color: #fff;
+}
+
+.p-home {
+  margin-top: 5%;
+  font-size: 25px;
+  word-wrap: break-word;
+  line-height: 1;
+}
+
+.p-collapse {
+  border-bottom: 1px solid;
+
+}
+
+.p-collapse i {
+  margin-left: 98%;
+}
+
+
+#horario #dia{
+  color: #e92b7b;
+}
+
+#horario #hora{
+  color: #70A5FF;
+}
+
+.button-home {
+  height: 50px;
+  width: 50px;
+  border-radius: 0% 15px 15px 15px;
+  background-color: #034cd9;
+  border-color: #034cd9;
+  color: #fff;
+
+}
+
+.button-home2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 0% 15px 15px 15px;
+  background-color: #e82175;
+  border-color: #e82175;
+  color: #fff;
+  font-size: 70%;
+}
+
+.form-right {
+  margin: 0;
+  margin-left: 65%;
+  margin-bottom: 1%;
+  margin-top: -40px;
+}
+
+.info-pessoas-online{
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+.pessoa-apresentador {
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.titulo-item-horario-agenda{
+  font-weight: 700;
+  width: 290px;
+}
+
+.descricao-agenda {
+  font-weight: 700;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.horario-evento-salas{
+  color: #F00066;
+  font-weight: 700;
+}
+
+.descricao-agenda{
+  font-weight: 700;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+#tab-navegacao a {
+  padding: 10px 30px;
+}
+
+.horario-agenda{
+  color: #70a5ff;
+}
+
+.card-right {
+  height: 30%;
+  width: 100%;
+}
+
+.corpo-form {
+  background: #F5F8FD;
+}
+
+.titulo-sessao {
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 20px;
+}
+
+.alinhamento-icons-tabs {
+  display: block;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.img-users-bate-papo {
+  width: 30px;
+  height: 30px;
+  align-self: start;
+}
+
+.info-users {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.info-palestrante {
+  padding: 15px 10px 15px 10px;
+  margin: 0 5px;
+  display: flex;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.info-palestrante img {
+  width: 70px;
+  height: 70px;
+  border-radius: 0px 20px 20px 20px;
+}
+
+.cabecalho-pergunte h6 {
+  display: inline-block;
+}
+
+.conteudo-pergunte {
+  margin-left: 42px;
+  margin-top: -8px;
+}
+
+.avaliacao-pesquisa {
+  padding: 0 15px 15px 15px;
+}
+
+.item-classificacao {
+  padding: 15px 0px 15px 15px;
+  display: flex;
+}
+
+.titulo-item-classificacao {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.textarea-custom {
+  font-size: 13px;
+  border: none;
+  resize: none;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.label-textarea-custom {
+  color: #d3d3d3;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.alinhamento-range form {
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.formulario-range {
+  padding: 20px;
+  background: #E5E9FA;
+}
+
+.mao-esquerda {
+  transform: rotate(180deg);
+}
+
+.classsificacao button {
+  width: 100%;
+  color: white;
+  background: #034CD9;
+}
+
+.classsificacao button:hover {
+  color: white;
+  background: #034CD9;
+}
+
+.titulo-sessao-cards{
+  border-bottom: 1px solid lightgray;
+}
+
+.card-timeline{
+  background: white;
+}
+
+.bloco-curtidas{
+  display: inline-block;
+}
+
+.bloco-comentarios{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.fundo-card{
+  background-color: #F5F8FD;
+}
+
+.info-users .tempo{
+  color: #5B98FF;
+}
+
+.descricao-pesquisa {
+  margin: 15px 0;
+}
+
+.conteudo-pergunte small {
+  display: block;
+  padding: 0 0 10px 0;
+}
+
+.btn-link-form {
+  width: 47%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #034CD9;
+}
+
+.btn-link-form:hover {
+  color: white;
+  background: #034CD9;
+  text-decoration: none;
+}
+
+/*Custom RadioButton*/
+/* The container */
+.container-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked~.checkmark {
+  background-color: #64E14D;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 29%;
+  height: 13px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#carousel {
+  margin-top: -18%;
+  margin-left: -8%;
+}
+
+#carousel span {
+  background-color: #000;
+}
+
+#carousel2 {
+  margin-top: -18%;
+  margin-right: -7%;
+
+}
+
+#img-user {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+#video-atual {
+  height: 400px;
+  width: 800px;
+}
+
+#navbar-text {
+  color: #fff;
+  font-size: 12px;
+}
+
+#btnEnviarMensagem {
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+
+#txtMensagem {
+  border-right: none;
+}
+
+/*Tabs*/
+#corpo-tab {
+  background: white;
+}
+
+/*Custom Scroll*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(78, 78, 78);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(78, 78, 78);
+}
+
+/*Media query*/
+@media (max-width: 575.98px) {
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .icon-custom{
+    width: 50px;
+  }
+  .icon-custom .alinhamento-icons-tabs{
+    display: none;
+  }
+  .coluna-icons-custom{
+    margin-left: 50px;
+  }
+  #corpo-tab{
+    margin-right: -27%;
+  }
+  .formulario-range{
+    padding: 0;
+  }
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .seta-principal{
+    margin-left: -4%;
+  }
+  .formulario-range{
+    padding: 10px;
+  }
+ }
